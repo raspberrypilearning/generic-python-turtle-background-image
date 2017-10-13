@@ -1,9 +1,9 @@
-You can set a background image for the screen which is displayed behind the turtle(s).
+You can set a background image for the screen which will be displayed behind the turtle(s).
 
 ```python
 screen = turtle.Screen()
 screen.setup(400, 400) # Should match the size of the background image
-screen.bgpic('texture.png')
+screen.bgpic('texture.png') # Use the name of your background image file
 ```
 
 Example:
